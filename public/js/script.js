@@ -1,4 +1,4 @@
-const video = document.getElementById('video')
+const video = document.querySelector('#video')
 
 Promise.all([
   faceapi.nets.tinyFaceDetector.loadFromUri('../models'),
