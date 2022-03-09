@@ -1,0 +1,29 @@
+{
+  "name": "face-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "serve src --listen 3333"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzacong/face-detection-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzacong/face-detection-js/issues"
+  },
+  "homepage": "https://github.com/zzacong/face-detection-js#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "serve": "^13.0.2",
+    "stream-browserify": "^3.0.0"
+  }
+}
